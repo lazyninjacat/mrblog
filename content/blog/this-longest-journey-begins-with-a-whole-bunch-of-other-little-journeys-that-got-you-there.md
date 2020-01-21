@@ -9,13 +9,7 @@ description: >-
 ---
 # Hello World!
 
-
-
 This time I feel like I've earned it. After all, I've been working on getting this blog up all day, and now it's looking like everything is working properly.
-
-
-
-
 
 ## So... the story up to here :
 
@@ -35,15 +29,9 @@ That's the goal, btw. I love doing this stuff, and so my goal for 2020 is to go 
 
 That's all for now. I'm going to poke around the file directory before I sign off for the day. I'm goint to try and post at the end of every day, just so I have a log of what I've learned, what I've been working with and what I've built.
 
-
-
 Here's a cool graffiti leopard!
 
-
-
 ![graffiti-leopard](assets/lazyninjacat_avatar.png "banksy-cat")
-
-
 
 Pace et bene
 
