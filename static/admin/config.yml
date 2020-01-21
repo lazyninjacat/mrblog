@@ -2,7 +2,7 @@ backend:
   name: github
   repo: lazyninjacat/mrblog
 
-media_folder: static/images/uploads
+media_folder: static/assets
 public_folder: assets
 
 collections:
