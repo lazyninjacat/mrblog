@@ -3,8 +3,8 @@ module.exports = {
     // edit below
     title: `My personal dev learning blog`,
     author: `Matthew Riddett`,
-    description: `My blog for recording my software development learning`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `A blog for recording my software development learning`,
+    siteUrl: `https://reverent-turing-5f0b1e.netlify.com/`,
     social: {
       twitter: `lazyninjacat`,
     },
