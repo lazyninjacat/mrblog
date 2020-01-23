@@ -15,7 +15,11 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
+        <img
+          style={{ margin: 0 }}
+          src="./assets/lazyninjacat_avatar.png"
+          alt="lazyninjacat"
+        />
         <h1>
           Hey people{" "}
           <span role="img" aria-label="wave emoji">
@@ -27,12 +31,12 @@ class IndexPage extends React.Component {
           will delete as soon as I can figure out how, haha.
         </p>
         <p>
-          This starter came out of the box with styled components and Gatsby's
-          default starter blog running on Netlify CMS. cool...
+          This blog is built with Gatsby.js with Netlify CMS, also deployed on
+          Netlify. Cool...
         </p>
         <p>Now I'm gonna go figure out how to work this thing!!</p>
         <Link to="/blog/">
-          <Button marginTop="35px">Go to Blog</Button>
+          <Button marginTop="45px">Go to Blog</Button>
         </Link>
       </Layout>
     )
