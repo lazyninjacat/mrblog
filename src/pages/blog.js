@@ -44,9 +44,9 @@ class Blog extends React.Component {
             )
           })}
         </div>
-        <Link to="/">
+        <a href="https://matthewriddett.com">
           <Button marginTop="85px">Go Home</Button>
-        </Link>
+        </a>
       </Layout>
     )
   }
