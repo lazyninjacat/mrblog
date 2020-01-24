@@ -13,6 +13,7 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
+
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
@@ -60,13 +61,7 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // edit below
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
+import Img from "gatsby-image"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -12,6 +13,7 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.mdx
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+    let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -20,6 +22,8 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <h1>{post.frontmatter.title}</h1>
+        <Img fluid={featuredImgFluid} />
+
         <p
           style={{
             ...scale(-1 / 5),
@@ -77,6 +81,7 @@ export const pageQuery = graphql`
         author
       }
     }
+
     mdx(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
@@ -85,6 +90,13 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

@@ -1,15 +1,17 @@
 ---
-title: 'I mean, is Gatsby really great?'
+title: "I mean, is Gatsby really great?"
 date: 2020-01-23T21:55:21.219Z
 description: >-
   In which I struggle - and fail - to do basic stuff with Gatsby, get
   frustrated, walk away, come back and try again, and succeed!..... sort of.
+featuredImage: ../assets/lazyninjacat_avatar.png
 ---
+
 So today worked on using image optimization with Gatsby.js and holy moly, what a PITA. I mean, I figured out how to add pictures to blog posts! So that's a win I guess...
 
 But really, that is so basic. I have to admit, today I often found myself thinking "is Gatsby really all that great?"
 
-The real struggle, which I have yet to overcome, is figuring out how to implement a featured image for each blog post and have that image show up in the list on the main blog index page. You'd think this would be pretty basic stuff, and I'm sure it actually is super easy. But it has defeated me today. So many false starts and fist banging on table moments. 
+The real struggle, which I have yet to overcome, is figuring out how to implement a featured image for each blog post and have that image show up in the list on the main blog index page. You'd think this would be pretty basic stuff, and I'm sure it actually is super easy. But it has defeated me today. So many false starts and fist banging on table moments.
 
 That said, I'm sure it's something simple I'm missing, and I bet I'll be able to get it figure out tomorrow. Decent enough progress was made today. Getting a better handle on GraphQL, which really is quite powerful.
 
