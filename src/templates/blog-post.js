@@ -13,8 +13,9 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.mdx
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-    let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
-
+    let featuredImgFluid =
+      post.frontmatter.featuredImage &&
+      post.frontmatter.featuredImage.childImageSharp.fluid
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO

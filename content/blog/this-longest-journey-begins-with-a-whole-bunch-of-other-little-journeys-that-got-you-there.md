@@ -6,9 +6,8 @@ title: >-
 description: >-
   In which I describe the journey up to here, with emphasis on the most recent
   leg, involving setting up this blog with Gatsby.js and netlify CMS.
----
-
-# Hello World!
+featuredImage: ../assets/unknown.png
+---# Hello World!
 
 This time I feel like I've earned it. After all, I've been working on getting this blog up all day, and now it's looking like everything is working properly.
 
