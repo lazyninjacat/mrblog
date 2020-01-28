@@ -4,8 +4,9 @@ date: 2020-01-27T23:54:37.338Z
 description: >-
   In which I actually manage to deploy a build of the blog with featured images
   correctly enabled.
-featuredImage: assets/adb09f40-3070-4152-9a87-384539a6781f.jpg
+featuredImage: ../assets/adb09f40-3070-4152-9a87-384539a6781f.jpg
 ---
+
 Okay, so last post was a tad inaccurate it turns out. I had thought I had completely figured out how to work with the Gatsby image API and deploy it all properly, BUT it turns out that it was failing to actually BUILD!
 
 Today, I noticed my mistake, and figured out how to ACTUALLY properly use the API and deploy it with a build. YAY!
@@ -22,4 +23,4 @@ That's all for now!
 
 Laters alligators!
 
-\-mr
+-mr
