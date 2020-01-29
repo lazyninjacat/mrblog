@@ -1,11 +1,12 @@
 ---
+
 date: 2020-01-21T21:32:41.396Z
 title: >-
-  This longest journey begins with... a whole bunch of other little journeys
-  that got you there.
+This longest journey begins with... a whole bunch of other little journeys
+that got you there.
 description: >-
-  In which I describe the journey up to here, with emphasis on the most recent
-  leg, involving setting up this blog with Gatsby.js and netlify CMS.
+In which I describe the journey up to here, with emphasis on the most recent
+leg, involving setting up this blog with Gatsby.js and netlify CMS.
 featuredImage: ../assets/unknown.png
 ---# Hello World!
 
