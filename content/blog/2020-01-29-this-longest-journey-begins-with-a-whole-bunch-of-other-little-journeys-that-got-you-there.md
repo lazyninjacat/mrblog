@@ -32,10 +32,6 @@ That's all for now. I'm going to poke around the file directory before I sign of
 
 Here's a cool graffiti leopard for the featured image!!
 
-
-
 Pace et bene
-
-
 
 \-mr
