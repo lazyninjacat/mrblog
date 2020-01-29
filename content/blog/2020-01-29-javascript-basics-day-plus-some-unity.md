@@ -28,8 +28,6 @@ TTFN!
 
 \-mr
 
-
-
 > "They could be a great people, Kal-El. They only lack the program to show them the way." 
 >
 > \- Jor-El
