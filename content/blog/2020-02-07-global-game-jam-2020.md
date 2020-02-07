@@ -18,8 +18,6 @@ Tenants will also just move out if they are unhappy for too long.
 
 The aim of the game is to restore the house to its former glory and beyond, and have it filled with happy tenants, while also trying to keep it from becoming a dump.
 
-
-
 You can check out our #GGJ2020 entry [here](https://globalgamejam.org/2020/games/if-these-walls-could-talk-1).
 
 And you can check out all the games made at the here at the Victoria jam site [here](https://globalgamejam.org/2020/jam-sites/victoria-ggj/games).
