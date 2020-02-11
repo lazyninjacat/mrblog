@@ -27,8 +27,6 @@ nextLargerNumber([3, 1, 3, 4])
 // 4 will look to the beginning, but find nothing, so -1
 ```
 
-
-
 ## My Solution:
 
 So I start by creating the start array, and an empty end array. My approach is to use nested for loops to go through the array, find the next largest, and push it to the end array. I'm sure there are other ways of doing this that are more efficient but this is what I came up with (using JavaScript). Here's the code:
