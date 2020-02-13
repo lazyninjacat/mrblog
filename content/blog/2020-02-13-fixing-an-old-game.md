@@ -6,11 +6,7 @@ featuredImage: ../assets/ggj2019.png
 ---
 Today (and last night), I spent some time re-visiting the game I built with a couple friends for last year's Global Game Jam (2019). The theme last year was "Home". We wanted to do something completely voice-controlled, so we came up with the idea to do a game based on a scene in from the 90s Adam Sandler movie "Happy Gilmore". In the scene, the Sandler character has just narrowly missed sinking his ball. He gets down on his hands and knees to yell at the ball and it's pretty hilarious. Here, check it out in this clip:
 
-
-
 https://youtu.be/TFIr9kfYI3M
-
-
 
 Anyway, in our game you have to yell - using your voice - at the ball in order to make it move forward. You move the ball over an obstacle course and try to reach the end before the timer runs out. 
 
