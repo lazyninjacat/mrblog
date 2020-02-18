@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `My personal dev learning blog`,
+    title: `Matthew Riddett's all-expenses-paid thrilling tell-all extravaganza junior software developer learning log blog`,
     author: `Matthew Riddett`,
-    description: `A blog for recording my software development learning`,
+    description: `A blog for recording my junior software developer learning`,
     siteUrl: `https://reverent-turing-5f0b1e.netlify.com/`,
     social: {
       twitter: `lazyninjacat`,
