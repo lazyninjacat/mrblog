@@ -1,9 +1,10 @@
 ---
-title: Missing Nubmers
+title: Missing Numbers
 date: 2020-02-18T21:28:48.268Z
 description: In which I solve the case of the missing numbers in an array...
 featuredImage: ../assets/missing.jpg
 ---
+
 Here's the problem statement, from AlgoDaily Day 34:
 
 #### Day 34: Find Missing Number in Array
