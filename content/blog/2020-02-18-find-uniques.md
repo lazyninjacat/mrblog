@@ -12,8 +12,6 @@ Given an array, return just the unique elements without using any built-in Array
 
 Note: Order needs to be preserved, so no sorting should be done.
 
-
-
 #### Here's my solution:
 
 ```
@@ -41,7 +39,6 @@ findUniques();
 
 console.log("Start array = " + startArray);
 console.log("Uniques = " + endArray);
-
 ```
 
 As before, pretty simple. I just use a boolean to keep track of whether it found a duplicate. If it did, then don't push that one to the solution array. Easy peasy.
