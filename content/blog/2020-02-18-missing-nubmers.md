@@ -6,8 +6,6 @@ featuredImage: ../assets/missing.jpg
 ---
 Here's the problem statement, from AlgoDaily Day 34:
 
-
-
 #### Day 34: Find Missing Number in Array
 
 We're given an array of continuous numbers that should increment sequentially by 1, which just means that we expect a sequence like:
@@ -19,8 +17,6 @@ However, we notice that there are some missing numbers in the sequence.
 `[1, 2, 4, 5, 7]`
 
 Can you write a method that takes an array of continuous numbers and returns the missing integers?
-
-
 
 #### Here's my solution:
 
@@ -44,8 +40,6 @@ missingNumbers();
 console.log("Start Array = " + startArray);
 console.log("Missing number = " + endArray);
 ```
-
-
 
 Pretty simple, straightforward. The solution boils down to testing if the actual array index value (i.e. startArray\[i + 1]) is equal to the value it SHOULD be (i.e. startArrray\[i] + i).
 
