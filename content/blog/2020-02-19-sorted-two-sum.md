@@ -14,11 +14,9 @@ Write a method to return an array of the indexes of the two elements in the arra
 
 The caveat here is that the numbers are guaranteed to be sorted.
 
-So let's say our goal number was `10`. Our numbers to sum to it would be `3 `and `7`, and their indices `1 `and `2 `respectively.
+So let's say our goal number was `10`. Our numbers to sum to it would be `3`and `7`, and their indices `1`and `2`respectively.
 
 Is there an efficient way to figure this out?
-
-
 
 #### Here's my solution:
 
@@ -40,7 +38,6 @@ twoSum();
 
 console.log("Start Array = " + startArray);
 console.log("Solution = " + endArray);
-
 ```
 
 Once again, it works!!....... I mean, it better right? it's only 14 lines of code.
