@@ -4,11 +4,7 @@ date: 2020-02-19T02:41:47.579Z
 description: In which I solve the AlgoDaily stock optimizer code challenge.
 featuredImage: ../assets/classical-sculptures-hipsters-5.jpg
 ---
-
-
 AlgoDaily code challenge, Day 35.
-
-
 
 #### Stock Buy and Sell Optimization
 
@@ -36,7 +32,7 @@ Can you write a stock optimizer method called `stockOptimizer`? See the followin
 // 7
 ```
 
-For the above example, the max profit is made when we buy on day/index `3`(when the price is `2`) and sell on day/index `4`(when the price is `9`) `9 - 2 `gives us `7`, which is returned by the function. Let's do another example.
+For the above example, the max profit is made when we buy on day/index `3`(when the price is `2`) and sell on day/index `4`(when the price is `9`) `9 - 2`gives us `7`, which is returned by the function. Let's do another example.
 
 ```
 stockOptimizer([9, 8, 6, 5, 3])
@@ -44,10 +40,6 @@ stockOptimizer([9, 8, 6, 5, 3])
 ```
 
 From a quick glance, it seems like there's enough price differences to generate a profit. However, notice that the price drops every day, and thus we can't have a profit since we're required to buy before selling.
-
-
-
-
 
 #### My Solution:
 
@@ -75,8 +67,6 @@ stockOptimizer(stocksArray);
 console.log("Stock Array = " + stocksArray);
 console.log("Maximum possible profit = $" + highestPossibleProfit);
 ```
-
-
 
 Again, pretty simple. Use a nested for loop and keep a "highestPossibleProfit" integer variable. As the for loops run they check if the difference between the two current array elements is > than the current highestPossibleProfit integer.
 
