@@ -34,8 +34,6 @@ function zerosToEnd(nums) {
 
 Can you do this without instantiating a new array?
 
-
-
 #### My Solution:
 
 ```
